@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "lint": "eslint **/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "eslint": "^5.6.1",
+    "express": "^4.16.3",
+    "joi": "^13.7.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "sequelize": "^4.39.0",
+    "sqlite3": "^3.1.13"
+  }
+}
